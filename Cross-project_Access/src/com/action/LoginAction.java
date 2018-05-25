@@ -20,6 +20,10 @@ public class LoginAction {
 	@Resource(name="UserService")
 	private UserService userService;
 	
+	public static void main(String[] args) {
+		System.out.println("Œ“‘⁄≤‚ ‘");
+	}
+	
 	@RequestMapping(value="login",method=RequestMethod.POST)
 	@ResponseBody
 	public Object Login(HttpServletRequest req,UserBean bean,String password){
