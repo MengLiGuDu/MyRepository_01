@@ -22,6 +22,7 @@ public class LoginAction {
 	
 	public static void main(String[] args) {
 		System.out.println("我在测试");
+		System.out.println("我第二次测试");
 	}
 	
 	@RequestMapping(value="login",method=RequestMethod.POST)
